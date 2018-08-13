@@ -1,0 +1,103 @@
+p, li, .description{
+ font-weight: 400;
+ line-height: 1.8rem;
+}
+
+.bg-primary{
+    background: #b2a37d !important;
+}
+.brand{
+    animation-name: fadeIn;
+    animation-duration: 1.1s;
+}
+.brand .h1-seo{
+    font-size: 3.2rem;
+    margin-bottom: .5rem;
+}
+
+.brand h3{
+    margin: 0;
+}
+@keyframes fadeIn {
+    0%   {opacity: 0;}
+    25%  {opacity: .25;}
+    50%  {opacity: .50;}
+    100% {opacity: 1;}
+}
+
+.paddingTop{
+    padding-top: 2rem;
+}
+.navbar-white{
+ background: #fff !important;
+}
+
+.black{
+    color: #000;
+}
+.gold, .category{
+    color: #b2a37d !important;
+}
+.background-black{
+    background: #131313;
+}
+.background-black:hover{
+    background: #b2a37d;
+}
+.filter-color{
+    background: linear-gradient(0deg,rgba(44,44,44,.2),rgba(0,0,0,.8));
+}
+
+.peopleInfo{
+height: 400px;
+width: 100%;
+background: url('../img/friends-happy2.jpg');
+background-repeat: no-repeat;
+background-position: 100%;
+background-size: cover;
+}
+
+.testimony{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.peopleInfo h2, .testimony h3{
+    margin: 0;
+}
+section .section-inner{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .section-inner h2{
+    color: #fff;
+}
+
+.team{
+    padding: 1rem;
+}
+
+.cto{
+    background: #131313;
+
+}
+.team-player .title, .team-player .description{
+    color: #fff;
+}
+
+.footer{
+    background: #131313;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 500px){
+    .brand .h1-seo{
+        font-size: 2.2rem;
+    }
+}
