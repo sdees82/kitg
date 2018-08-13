@@ -41,9 +41,12 @@ p, li, .description{
 .background-black{
     background: #131313;
 }
-.background-black:hover{
-    background: #b2a37d;
+
+.background-black:hover, .background-black:focus{
+    background: #b2a37d !important;
 }
+
+
 .filter-color{
     background: linear-gradient(0deg,rgba(44,44,44,.2),rgba(0,0,0,.8));
 }
