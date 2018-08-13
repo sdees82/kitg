@@ -35,9 +35,10 @@ p, li, .description{
 .black{
     color: #000;
 }
-.gold, .category{
+.gold, .gold-background, .category{
     color: #b2a37d !important;
 }
+
 .background-black{
     background: #131313;
 }
@@ -98,6 +99,15 @@ section .section-inner h2{
     color: #fff;
 }
 
+
+.thanks .wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 @media screen and (max-width: 500px){
     .brand .h1-seo{
