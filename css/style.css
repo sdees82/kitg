@@ -2,6 +2,12 @@ p, li, .description{
  font-weight: 400;
  line-height: 1.8rem;
 }
+.sidebar-collapse .navbar-collapse{
+    background: #000;
+}
+.sidebar-collapse .navbar-collapse::before{
+    background: linear-gradient(#b2a37d,#131313 80%);
+}
 
 .bg-primary{
     background: #b2a37d !important;
